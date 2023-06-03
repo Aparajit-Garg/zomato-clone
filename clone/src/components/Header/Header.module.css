@@ -1,0 +1,27 @@
+.nav {
+    position: absolute;
+    top: 20px;
+    height: 72px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    top: 20px;
+}
+
+.header ul {
+    /* text-align: center; */
+    height: 72px;
+    display: flex;
+    position: absolute;
+    color: white;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 1rem;
+}
+
+.header ul li {
+    
+}

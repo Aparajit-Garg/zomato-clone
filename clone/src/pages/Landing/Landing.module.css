@@ -1,0 +1,26 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+}
+
+.image {
+    display: flex;
+    width: 100vw;
+    /* height: 100%; */
+    object-fit: cover;
+    height: 36rem;
+    box-sizing: inherit;
+    overflow: hidden;
+    position: relative;
+}
+
+.image img {
+    width: 100vw;
+    height: 100%;
+    box-sizing: inherit;
+    object-fit: cover;
+    filter: unset;
+}
